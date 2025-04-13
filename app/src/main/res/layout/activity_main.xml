@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -14,7 +15,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:gravity="start"
-        android:background="#5D00FF"
+        android:background="#3C1287"
         android:padding="12dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -34,5 +35,5 @@
         android:background="@android:color/darker_gray"
         android:textColor="@android:color/white"
         android:padding="12dp"
-        android:visibility="gone"/>
+        android:visibility="gone"/> <!-- Скрыто до выбора элемента -->
 </LinearLayout>
